@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Website for Mom and Dad</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<script src="salutations.js"></script>
+<script src="clock.js"></script>
+    
+<script type="text/javascript">
+window.onload=function(){
+GetClock();
+salutations();
+setInterval(GetClock,1000);
+}
+
+</script>
+<div class="container-fluid">
+  <h1 id='greetings'></h1>
+</div>
+
+<div class = "container-fluid">
+<div class="row">
+    <div class = "col-md-12" id="clockbox"></div>
+    <div id="city" class="col-sm-4 col-md-4">New York</div>
+    <div id="denver" class="col-sm-4 col-md-4">Denver</div>
+    <div id="city" class="col-sm-4 col-md-4">San Diego</div>
+</div>
+<div class = "row">
+    <div class="col-md-4 col-sm-4" id="nytime"></div>
+    <div class ="col-md-4 col-sm-4" id='dtime'></div>
+    <div class="col-md-4 col-sm-4" id="sdtime"></div>
+</div>
+
+</div>
+<div class="container-fluid"> 
+    <div class="row">
+        <div class="col-md-6 col-sm-6">
+            <div class="well">
+                <h2>Weather will go here</h2>
+                <p>Lorem ipsum dolor sit amet, et placerat ultricies eleifend sed nec. Lacus nunc turpis, purus vulputate turpis ultricies cum nunc auctor. Vitae arcu, at aliquam class dignissim sit nulla, quam est a lobortis diam neque. Erat est donec, in iaculis proin aenean, aliquam torquent, arcu risus quam. Sapien arcu donec enim, nonummy integer pede vel amet mi sed, vestibulum id. Ullamcorper mauris sit amet nam nunc lacus, est justo metus nunc rutrum adipiscing, ornare interdum feugiat feugiat est, nulla suspendisse dui leo.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6">                
+                    <div class="well">
+                        <h3>SD Weather</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">                     
+                    <div class="well">
+                        <h3>NY Weather</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">                
+                    <div class="well">
+                        <h3>Stocks?</h3>
+                        <p>Lorem ipsum dolor sit amet, et placerat ultricies eleifend sed nec. Lacus nunc turpis, purus vulputate turpis ultricies cum nunc auctor. Vitae arcu, at aliquam class dignissim sit nulla, quam est a lobortis diam neque. Erat est donec, in iaculis proin aenean.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-6">
+            <div class="well">
+            <div id="Carousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="New_folder/water_bottles.JPG">
+                    </div>
+                    <div class="item">
+                        <img src="New_folder/bhbikes.JPG">
+                    </div>
+                    <div class="item">
+                        <img src="New_folder/mb.JPG">
+                    </div>
+                    <div class="item">
+                        <img src="New_folder/shots.JPG">
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="well">
+                        <h2>Dad Agenda</h2>
+                        <p>Lorem ipsum dolor sit amet, et placerat ultricies eleifend sed nec. Lacus nunc turpis, purus vulputate turpis ultricies cum nunc auctor. Vitae arcu, at aliquam class dignissim sit nulla, quam est a lobortis diam neque. Erat est donec, in iaculis proin aenean, aliquam torquent, arcu risus quam. Sapien arcu donec enim, nonummy integer pede vel amet mi sed.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="well">
+                        <h2 id="momagenda" > Mom Agenda </h2>
+                        <p>Lorem ipsum dolor sit amet, et placerat ultricies eleifend sed nec. Lacus nunc turpis, purus vulputate turpis ultricies cum nunc auctor. Vitae arcu, at aliquam class dignissim sit nulla, quam est a lobortis diam neque. Erat est donec, in iaculis proin aenean, aliquam torquent, arcu risus quam. Sapien arcu donec enim, nonummy integer pede vel amet mi sed.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="container-fluid">
+    <button type="button" class="btn btn-default btn-lg">
+        <a href="www.google.com">OneNote</a>
+    </button>
+    </footer>
+</body>
+</html>
