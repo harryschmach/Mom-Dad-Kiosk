@@ -61,6 +61,7 @@ h2 {
     color: cadetblue;
 }
 
-#momagenda {
+#agendatitle {
     color: black;
+    font-size: 25px;
 }
